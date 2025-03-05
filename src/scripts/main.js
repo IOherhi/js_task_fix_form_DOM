@@ -30,3 +30,4 @@ const arrayFromAtributs = arrayInputs.map((item) => {
     item.prepend(labelElement);
   });
 
+  /* sdg */
