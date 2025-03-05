@@ -6,8 +6,8 @@ const arrayInputs = [...allInputs];
 const field = body.querySelectorAll('.field');
 
 arrayInputs.forEach((item) => {
-  let name = item.getAttribute('name')
-  item.setAttribute('placeholder', name[0].toUpperCase() + name.slice(1));
+  let upCAs = item.getAttribute('name')
+  item.setAttribute('placeholder', upCAs[0].toUpperCase() + upCAs.slice(1));
 });
 
 const arrayFromAtributs = arrayInputs.map((item) => {
