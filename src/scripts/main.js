@@ -15,7 +15,7 @@ const arrayFromAtributs = arrayInputs.map((item) => {
 })
 
 
-  faielD.forEach((item) => {
+  field.forEach((item) => {
     const labelElement = document.createElement('label');
     let curent;
 
