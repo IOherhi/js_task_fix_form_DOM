@@ -25,6 +25,5 @@ const arrayFromAtributs = arrayInputs.map((item) => {
 
     labelElement.setAttribute('for', curent);
     labelElement.setAttribute('class', 'field-label')
-
     item.prepend(labelElement);
   });
